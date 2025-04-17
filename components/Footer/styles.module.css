@@ -1,0 +1,38 @@
+.footerContainer {
+    background-color: var(--primary950);
+    color: var(--neutral50);
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.footerContent {
+    padding: 0 16px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 40px;
+}
+
+.gridMapSite {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(207px, 1fr));
+    justify-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 795px) {
+    .gridMapSite {
+        justify-items: flex-start;
+    }
+}
+
+@media (max-width: 757px) {
+    .footerGrid {
+        display: inline;
+    }
+}

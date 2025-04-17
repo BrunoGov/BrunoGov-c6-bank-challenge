@@ -1,0 +1,15 @@
+.cardBlog {
+    width: 260px;
+}
+
+.titleCard {
+    color: var(--neutral950);
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.contentButton {
+    display: flex;
+    justify-content: center;
+}

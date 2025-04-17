@@ -1,0 +1,16 @@
+.button {
+    width: 150px;
+    font-weight: bold !important;
+}
+
+.contained {
+    background-color: var(--secondary600) !important;
+    border-radius: 30px !important;
+    color: var(--neutral50) !important;
+}
+
+.outlined {
+    border : 2px solid var(--secondary600) !important;
+    border-radius: 30px !important;
+    color: var(--secondary600) !important;
+}

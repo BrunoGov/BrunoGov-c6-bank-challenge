@@ -1,0 +1,26 @@
+.cardReview {
+    width: 260px;
+    background-color: var(--neutral50);
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.name {
+    color: var(--neutral950);
+    margin: 0;
+}
+
+.dateReview {
+    font-size: 12px;
+    color: var(--neutral400);
+    margin: 3px;
+}
+
+.textReview {
+    padding: 0 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}

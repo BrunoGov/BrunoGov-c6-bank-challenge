@@ -1,0 +1,50 @@
+:root {
+    --primary50: #f4f7fb;
+    --primary100: #e7f0f7;
+    --primary200: #cadeed;
+    --primary300: #9bc2de;
+    --primary400: #65a3cb;
+    --primary500: #4188b6;
+    --primary600: #306c99;
+    --primary700: #28577c;
+    --primary800: #254a67;
+    --primary900: #233f57;
+    --primary950: #1d3348;
+  
+    --secondary50: #fdf3f3;
+    --secondary100: #fce4e4;
+    --secondary200: #facfce;
+    --secondary300: #f6acab;
+    --secondary400: #ef7c7a;
+    --secondary500: #e35250;
+    --secondary600: #c12f2d;
+    --secondary700: #ae2927;
+    --secondary800: #902524;
+    --secondary900: #782524;
+    --secondary950: #410f0e;
+  
+    --neutral50: #f4f4f5;
+    --neutral100: #eeeef0;
+    --neutral200: #dadadd;
+    --neutral300: #b9bac0;
+    --neutral400: #93949d;
+    --neutral500: #767681;
+    --neutral600: #606169;
+    --neutral700: #4e4e56;
+    --neutral800: #434349;
+    --neutral900: #3b3c3f;
+    --neutral950: #27272a;
+  }
+  
+  
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }

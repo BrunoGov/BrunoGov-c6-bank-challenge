@@ -1,0 +1,23 @@
+.topBarContainer {
+  background-color: var(--primary950);
+  color: var(--neutral50);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding: 0 16px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.iconMaker {
+  display: flex;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

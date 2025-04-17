@@ -1,0 +1,21 @@
+.cardProductImage {
+    width: 260px;
+}
+
+.titleCard {
+    color: var(--neutral50);
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.subtitleCard {
+    color: var(--neutral200);
+    text-align: center;
+    margin-top: 6px;
+}
+
+.contentButton {
+    display: flex;
+    justify-content: center;
+}

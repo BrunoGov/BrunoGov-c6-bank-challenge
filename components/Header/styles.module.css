@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.nav {
+    display: flex;
+    color: var(--secondary50);
+}
+
+.nav * {
+    display: flex;
+    gap: 35px;
+}
+
+.menuDrawer {
+    width: 40% !important;
+}
+
+.buttonDrawer {
+    color: var(--primary950);
+    width: 100%;
+}
+
+.iconButtonDrawer {
+    width: 35px;
+    align-self: flex-end;
+    background-color: transparent;
+    margin: 10px 10px 0 10px;
+}
+
+.menuDesktop {
+    display: contents;
+}
+
+.menuMobile {
+    display: none;
+    background: var(--secondary600);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.menuMobileContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+@media (max-width: 877px) {
+    .nav * {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menuDesktop {
+        display: none;
+    }
+
+    .menuMobile {
+        display: block;
+    }
+}
