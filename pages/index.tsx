@@ -16,7 +16,28 @@ import { CardContact } from "@/components/CardContact";
 import { Footer } from "@/components/Footer";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { ReviewProps } from "./Models";
+
+interface ReviewProps {
+  name: string;
+  relativePublishTimeDescription: string;
+  rating: number;
+  text: {
+    text: string;
+    languageCode: string;
+  };
+  originalText: {
+    text: string;
+    languageCode: string;
+  };
+  authorAttribution: {
+    displayName: string;
+    uri: string;
+    photoUri: string;
+  };
+  publishTime: string;
+  flagContentUri: string;
+  googleMapsUri: string;
+}
 
 export default function Home() {
   const [reviews, setReviews] = useState<ReviewProps[]>([]);
